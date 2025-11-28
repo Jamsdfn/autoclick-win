@@ -239,7 +239,7 @@ class AutoClicker:
         # 隐藏主窗口，方便用户点击
         self.root.withdraw()
         # 显示提示信息
-        pyautogui.alert(text="将鼠标移动到目标位置，然后点击此弹窗的确定按钮", title="获取位置", button="确定")
+        pyautogui.alert(text="确定按钮就是选择的位置，移动到对应的位置上再按确认就👌了", title="获取位置", button="确定")
         # 获取当前鼠标位置
         x, y = pyautogui.position()
         # 恢复主窗口
